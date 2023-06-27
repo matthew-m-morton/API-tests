@@ -2,7 +2,7 @@ FROM node:alpine
 
 COPY package.json ./
 
-COPY server.js
+COPY server.js ./
 
 RUN npm install
 
